@@ -1,12 +1,6 @@
-# Project Name
-TODO: Write a project description
-## Installation
-TODO: Describe the installation process
 ## Usage
-TODO: Write usage instructions
+TODO: Move dll files into debug folder , link sfml and link both includes and lib folders 
 
-## Credits
-TODO: Write credits
 
 
 
