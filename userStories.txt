@@ -1,0 +1,36 @@
+User Stories:
+
+
+As a player I want to move my character to have them
+interact with the world.
+-acceptance criteria
+[] Character appear on screen
+[] Character can be moved with keyboard
+[] Character stays within map
+[] Character only moves when told to
+[] Sprite visually corresponds to direction of movement/action taken
+
+As a player I want to be able to kill enemies so I can clear the level
+-acceptance criteria
+[] Collision detection
+[] Melee/Ranged attack
+[] Shoot with mouse click
+[] Mouse Directional Shooting
+
+As a player I want to be able to pickup and use a variety of weapons since they will run out
+of ammo
+-acceptance criteria
+[] Limited Ammo on Weapons
+[] Different Weapons
+[] Unique weapon functionality 
+[] Weapon pickup feedback/interaction
+[] Visual feedback as to what weapon we are using/holding
+
+As a player I want to be able to understand how and/or what I am doing so I can clear the level
+-acceptance criteria
+[] Visual Feedback like Score
+[] Blood splatter visuals to show dead/dying enemies
+[] Clear indication of the goal/progress(enemies left/timer)
+[] Clear indication of completed goal
+
+

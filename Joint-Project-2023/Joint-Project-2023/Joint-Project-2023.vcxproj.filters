@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Crosshair.cpp">
+      <Filter>Cpp\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Cpp\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Cpp\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>Cpp\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Cpp\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Cpp\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Cpp\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="License.cpp">
+      <Filter>Cpp\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Cpp\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Cpp\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedWeapon.cpp">
+      <Filter>Cpp\Weapons\Ranged</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScreen.cpp">
+      <Filter>Cpp\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Cpp\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus.cpp">
+      <Filter>Cpp\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Cpp\Weapons\Ranged\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectilePool.cpp">
+      <Filter>Cpp\Weapons\Ranged\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Cpp\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeWeapon.cpp">
+      <Filter>Cpp\Weapons\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Cpp\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponPickup.cpp">
+      <Filter>Cpp\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtility.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BloodParticle.h">
+      <Filter>Headers\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Crosshair.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DustParticle.h">
+      <Filter>Headers\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headers\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="License.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeWeapon.h">
+      <Filter>Headers\Weapons\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCollisions.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtility.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Headers\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Headers\Weapons\Ranged\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilePool.h">
+      <Filter>Headers\Weapons\Ranged\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedWeapon.h">
+      <Filter>Headers\Weapons\Ranged</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScreen.h">
+      <Filter>Headers\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Headers\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponPickup.h">
+      <Filter>Headers\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ASSETS\IMAGES\SFML-LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="ASSETS\FONTS\ariblk.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3154ef06-4cd8-4434-96a7-b0b4f7f11da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{cc0bafdd-a0ef-4075-8699-77d387f7f3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Particles">
+      <UniqueIdentifier>{ce89523d-91f5-4d2a-afa6-2124c36e87dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Game">
+      <UniqueIdentifier>{7a18d178-a65f-4e6f-ae43-3376375f3381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Menus">
+      <UniqueIdentifier>{38d69668-65fa-4fee-9696-bd59e5f434c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Player">
+      <UniqueIdentifier>{9924fce1-7842-459b-bef5-db4ad420ca98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Enemy">
+      <UniqueIdentifier>{97490f7d-db70-4f83-8db4-bc806cfb60d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Weapons">
+      <UniqueIdentifier>{1aea53e6-6f1d-431a-9a2b-0e7a4055c79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Weapons\Melee">
+      <UniqueIdentifier>{34326a43-ecba-4b0c-a4c7-fd31fb9cd1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Weapons\Ranged">
+      <UniqueIdentifier>{e135bdec-f94d-4ec0-8650-8a5016adb0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Weapons\Ranged\Projectiles">
+      <UniqueIdentifier>{7f171155-7f6f-41ca-8d23-5a54571aee3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Game">
+      <UniqueIdentifier>{a3b6ce52-e891-4a06-a6bc-9042126138bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Menus">
+      <UniqueIdentifier>{eac34d76-0a4a-4265-82ba-09f35ce06e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Enemy">
+      <UniqueIdentifier>{faca9260-2acc-4c06-ac54-dc90d2c3794a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Player">
+      <UniqueIdentifier>{4999ac96-1ce7-4123-b9bf-2712f3e421d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Weapons">
+      <UniqueIdentifier>{50309953-2df8-4738-9fc7-774e4d6adcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Weapons\Ranged">
+      <UniqueIdentifier>{09aff178-062f-41bf-b025-2e61b47a4064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Weapons\Ranged\Projectiles">
+      <UniqueIdentifier>{6ef8a12d-d9bd-4b04-afc4-6f6b676dcf66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Weapons\Melee">
+      <UniqueIdentifier>{e3e78834-b7ed-4299-9257-eb47d1828cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{4f2365e9-97ba-4f7b-8da2-67c012f6ba1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
